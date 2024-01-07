@@ -1,3 +1,122 @@
 * {
   margin: 0;
 }
+/* common shared style */
+body h1,
+h2,
+h3,
+h4 {
+  font-family: Merriweather;
+}
+p {
+  font-family: Inter;
+}
+
+/* banner section styles */
+.banner {
+  width: 1320px;
+  height: 600px;
+  margin: 0 auto;
+}
+.banner .banner-design {
+  width: 1320px;
+  height: 600px;
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../assests/banner.png");
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  background-position: center;
+  margin: 50px auto 0;
+}
+.banner-design h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 400;
+}
+.banner-design h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 900;
+}
+.headings {
+  padding-top: 177px;
+}
+/* sale section styles */
+.sale {
+  text-align: center;
+  margin-top: 120px;
+}
+.sale h2 {
+  color: rgb(255, 1, 155);
+  font-family: Inter;
+  font-size: 88px;
+  font-weight: 700;
+}
+.sale h3 {
+  color: rgb(242, 37, 16);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  padding-top: 45px;
+}
+.sale h4 {
+  color: rgb(250, 158, 14);
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  padding-top: 10px;
+  margin-bottom: 48px;
+}
+/* party section style */
+.party {
+  width: 1320px;
+  height: 600px;
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../assests/party.png");
+  margin: 120px auto;
+  border-radius: 15px;
+}
+.welcome {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  /* padding: 125px; */
+}
+.party-details {
+  padding: 0 100px;
+}
+.party-details h3 {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 900;
+  letter-spacing: 7px;
+  padding-top: 125px;
+}
+.party-details p {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 300;
+  padding: 24px 0 48px;
+}
+
+.party-details button {
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  background: rgb(212, 172, 91);
+  display: inline-flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.year img {
+  margin-right: 130px;
+  padding-top: 70px;
+}
