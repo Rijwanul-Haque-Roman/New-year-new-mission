@@ -96,7 +96,6 @@ p {
 }
 .party-details p {
   color: rgba(255, 255, 255, 0.8);
-  font-family: Inter;
   font-size: 18px;
   font-weight: 300;
   padding: 24px 0 48px;
@@ -137,7 +136,6 @@ p {
 }
 .address-container p {
   color: rgb(0, 0, 0);
-  font-family: Inter;
   font-size: 32px;
   font-style: normal;
   font-weight: 600;
@@ -157,4 +155,61 @@ p {
   border-radius: 10px;
   border: 0;
   margin-top: 48px;
+}
+/* best offer section styles */
+.best-offer {
+  width: 1320px;
+  height: 600px;
+  margin: 120px auto;
+  border-radius: 15px;
+}
+.offer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 90px;
+}
+.offer-description {
+  max-width: 380px;
+}
+.offer-description h2 {
+  color: rgb(255, 30, 78);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.offer-description h3 {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 900;
+  margin-top: 24px;
+}
+.offer-description p {
+  color: rgba(7, 2, 17);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 24px;
+}
+
+.people img {
+  border: 15px solid rgb(255, 30, 78);
+  border-radius: 50%;
+  padding: 40px;
+}
+.year-wish h3 {
+  color: rgb(255, 30, 78);
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.year-wish p {
+  color: rgba(7, 2, 17);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 40px;
 }
