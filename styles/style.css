@@ -50,7 +50,7 @@ p {
   margin-top: 120px;
 }
 .sale h2 {
-  color: rgb(255, 30, 78);
+  color: #f00;
   font-family: Inter;
   font-size: 85px;
   font-weight: 700;
@@ -142,7 +142,7 @@ p {
   line-height: 50px;
 }
 .address-container p span {
-  color: rgb(255, 30, 78);
+  color: #f00;
 }
 
 .address-container button {
@@ -150,7 +150,7 @@ p {
   font-family: Inter;
   font-size: 20px;
   font-weight: 700;
-  background: rgb(255, 30, 78);
+  background: #f00;
   padding: 16px 32px;
   border-radius: 10px;
   border: 0;
@@ -173,7 +173,7 @@ p {
   max-width: 380px;
 }
 .offer-description h2 {
-  color: rgb(255, 30, 78);
+  color: #f00;
   font-family: Inter;
   font-size: 24px;
   font-weight: 500;
@@ -194,12 +194,12 @@ p {
 }
 
 .people img {
-  border: 15px solid rgb(255, 30, 78);
+  border: 15px solid #f00;
   border-radius: 50%;
   padding: 40px;
 }
 .year-wish h3 {
-  color: rgb(255, 30, 78);
+  color: #f00;
   font-family: Inter;
   font-size: 48px;
   font-weight: 700;
@@ -251,8 +251,8 @@ p {
 }
 
 .holiday-sale .gifts {
-  width: 1320px;
-  height: 662px;
+  width: 1315px;
+  height: 660px;
   display: flex;
   /* justify-content: center; */
   align-items: center;
@@ -298,6 +298,14 @@ p {
   font-weight: 400;
   line-height: 30px;
   margin-bottom: 48px;
+}
+
+.zoom {
+  transition: transform 0.2s ease-in-out;
+}
+
+.zoom:hover {
+  transform: scale(1.1);
 }
 .upper-row {
   display: flex;
@@ -348,24 +356,25 @@ p {
 .form input {
   width: 400px;
   height: 72px;
+  padding-left: 30px;
+  font-size: 18px;
   border: 0;
   border-radius: 50px 0 0 50px;
 }
 .form input::placeholder {
-  padding-left: 30px;
   color: rgba(7, 2, 17, 0.3);
   font-size: 18px;
   font-weight: 400;
 }
-.form button {
-  width: 210px;
-  height: 74px;
+.form [type="button"] {
+  width: 200px;
+  height: 72px;
   color: #fff;
   font-size: 20px;
   font-weight: 600;
   border-radius: 0px 50px 50px 0px;
   background: #f00;
-  border: 0px;
+  border: 2px #f00;
   margin-left: -5px;
 }
 /* footer section style */
