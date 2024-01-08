@@ -160,7 +160,7 @@ p {
 .best-offer {
   width: 1320px;
   height: 600px;
-  margin: 120px auto;
+  margin: 120px auto 0;
   border-radius: 15px;
 }
 .offer-container {
@@ -212,4 +212,59 @@ p {
   font-weight: 400;
   line-height: 32px;
   margin-bottom: 40px;
+}
+
+/* holiday-sale style */
+
+.holiday-sale {
+  width: 1320px;
+  margin: 0 auto;
+}
+
+.holiday-sale-description {
+  text-align: center;
+}
+.holiday-sale-description h3 {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.holiday-sale-description h4 {
+  color: #070211;
+  font-size: 72px;
+  font-weight: 900;
+  padding-top: 16px;
+}
+.holiday-sale-description h4 span {
+  color: #f00;
+}
+
+.holiday-sale-description p {
+  max-width: 1060px;
+  color: rgba(7, 2, 17);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  padding-top: 28px;
+  margin: 0 auto 64px;
+}
+
+.holiday-sale .gifts {
+  width: 1320px;
+  height: 662px;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  background: url("../assests/red-rectangle.png"), url("../assests/girl.png");
+  background-position: bottom, top right;
+  background-repeat: no-repeat;
+}
+
+.gift-box {
+  width: 730px;
+}
+
+.discount {
+  margin-bottom: 230px;
 }
